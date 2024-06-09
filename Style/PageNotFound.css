@@ -1,0 +1,40 @@
+
+@font-face {
+    font-family: 'vazir';
+    src: url(https://nobitex.ir/_nuxt/fonts/Vazir-FaNum-Medium.bfdd5c1.woff2) format('woff2');
+ }
+
+ * {
+     font-family: 'vazir';
+ }
+
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     height: 97%;
+ }
+
+ html {
+     height: 100%;
+ }
+
+.img {
+    display: contents;
+}
+
+ img {
+     max-width: 70%;
+     width: 650px;
+ }
+
+
+
+ span {
+     position: relative;
+     margin-top: -80px;
+     color: #231fca;
+     font-size: 25px;
+ }
+
